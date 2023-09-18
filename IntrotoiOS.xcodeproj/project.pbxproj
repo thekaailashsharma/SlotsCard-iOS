@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8454161C2AB612730016FB12 /* IntrotoiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454161B2AB612730016FB12 /* IntrotoiOSApp.swift */; };
+		8454161E2AB612730016FB12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454161D2AB612730016FB12 /* ContentView.swift */; };
+		845416202AB612750016FB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8454161F2AB612750016FB12 /* Assets.xcassets */; };
+		845416232AB612750016FB12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845416222AB612750016FB12 /* Preview Assets.xcassets */; };
+		8464FB642AB75569003BC264 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8464FB632AB75569003BC264 /* Lottie */; };
+		846D1B572AB8A506002DA39B /* wins.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 846D1B562AB8A506002DA39B /* wins.lottie */; };
+		846D1B592AB8B066002DA39B /* confetti.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 846D1B582AB8B066002DA39B /* confetti.lottie */; };
+		848A924F2AB7339E00DE4137 /* TitleSlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A924E2AB7339E00DE4137 /* TitleSlots.swift */; };
+		848A92512AB7369A00DE4137 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A92502AB7369A00DE4137 /* Cards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845416182AB612730016FB12 /* IntrotoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntrotoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8454161B2AB612730016FB12 /* IntrotoiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrotoiOSApp.swift; sourceTree = "<group>"; };
+		8454161D2AB612730016FB12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8454161F2AB612750016FB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845416222AB612750016FB12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846D1B562AB8A506002DA39B /* wins.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = wins.lottie; sourceTree = "<group>"; };
+		846D1B582AB8B066002DA39B /* confetti.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.lottie; sourceTree = "<group>"; };
+		848A924E2AB7339E00DE4137 /* TitleSlots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlots.swift; sourceTree = "<group>"; };
+		848A92502AB7369A00DE4137 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845416152AB612730016FB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464FB642AB75569003BC264 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8454160F2AB612730016FB12 = {
+			isa = PBXGroup;
+			children = (
+				8454161A2AB612730016FB12 /* IntrotoiOS */,
+				845416192AB612730016FB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845416192AB612730016FB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845416182AB612730016FB12 /* IntrotoiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8454161A2AB612730016FB12 /* IntrotoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8454161B2AB612730016FB12 /* IntrotoiOSApp.swift */,
+				8454161D2AB612730016FB12 /* ContentView.swift */,
+				848A924E2AB7339E00DE4137 /* TitleSlots.swift */,
+				846D1B562AB8A506002DA39B /* wins.lottie */,
+				848A92502AB7369A00DE4137 /* Cards.swift */,
+				846D1B582AB8B066002DA39B /* confetti.lottie */,
+				8454161F2AB612750016FB12 /* Assets.xcassets */,
+				845416212AB612750016FB12 /* Preview Content */,
+			);
+			path = IntrotoiOS;
+			sourceTree = "<group>";
+		};
+		845416212AB612750016FB12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845416222AB612750016FB12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845416172AB612730016FB12 /* IntrotoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845416262AB612750016FB12 /* Build configuration list for PBXNativeTarget "IntrotoiOS" */;
+			buildPhases = (
+				845416142AB612730016FB12 /* Sources */,
+				845416152AB612730016FB12 /* Frameworks */,
+				845416162AB612730016FB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntrotoiOS;
+			packageProductDependencies = (
+				8464FB632AB75569003BC264 /* Lottie */,
+			);
+			productName = IntrotoiOS;
+			productReference = 845416182AB612730016FB12 /* IntrotoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845416102AB612730016FB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					845416172AB612730016FB12 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 845416132AB612730016FB12 /* Build configuration list for PBXProject "IntrotoiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8454160F2AB612730016FB12;
+			packageReferences = (
+				8464FB622AB75569003BC264 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 845416192AB612730016FB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845416172AB612730016FB12 /* IntrotoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845416162AB612730016FB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845416232AB612750016FB12 /* Preview Assets.xcassets in Resources */,
+				845416202AB612750016FB12 /* Assets.xcassets in Resources */,
+				846D1B592AB8B066002DA39B /* confetti.lottie in Resources */,
+				846D1B572AB8A506002DA39B /* wins.lottie in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845416142AB612730016FB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A924F2AB7339E00DE4137 /* TitleSlots.swift in Sources */,
+				8454161E2AB612730016FB12 /* ContentView.swift in Sources */,
+				8454161C2AB612730016FB12 /* IntrotoiOSApp.swift in Sources */,
+				848A92512AB7369A00DE4137 /* Cards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		845416242AB612750016FB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845416252AB612750016FB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845416272AB612750016FB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntrotoiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X9QZ4KQXLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.IntrotoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845416282AB612750016FB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntrotoiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X9QZ4KQXLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.IntrotoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845416132AB612730016FB12 /* Build configuration list for PBXProject "IntrotoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845416242AB612750016FB12 /* Debug */,
+				845416252AB612750016FB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845416262AB612750016FB12 /* Build configuration list for PBXNativeTarget "IntrotoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845416272AB612750016FB12 /* Debug */,
+				845416282AB612750016FB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8464FB622AB75569003BC264 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8464FB632AB75569003BC264 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8464FB622AB75569003BC264 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 845416102AB612730016FB12 /* Project object */;
+}

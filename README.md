@@ -19,7 +19,7 @@ My first iOS App with Swift UI. 💁🛠
 
 ## Acknowledgements
 
- - [Kotlin docs](https://developer.apple.com/)
+ - [Apple Docs](https://developer.apple.com/)
  
 
 
